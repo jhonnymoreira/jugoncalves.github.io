@@ -4,7 +4,7 @@ markdown: redcarpet
 pygments: true
 
 # permalink as /:category/:title
-permalink: none
+permalink: /blog/:categories/:title
 
 # exclude my node related stuff
 exclude: ['package.json', 'Makefile', 'src']
