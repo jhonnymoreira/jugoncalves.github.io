@@ -1,0 +1,10 @@
+
+name: jugoncalv.es
+markdown: redcarpet
+pygments: true
+
+# permalink as /:category/:title
+permalink: none
+
+# exclude my node related stuff
+exclude: ['package.json', 'Makefile', 'src']

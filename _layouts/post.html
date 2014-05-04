@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% include list.html %}
+
+<section class="me-post">
+  <h2 class="me-post_title">{{ page.title }}</h2>
+  <!-- <p class="me-post_date">{{ page.date | date_to_string }}</p> -->
+
+  <article class="me-post_article">
+    {{ content }}
+  </article>
+
+</section>

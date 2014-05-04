@@ -1,0 +1,19 @@
+{
+  "name": "jugoncalves.github.io",
+  "version": "0.1.0",
+  "description": "jugoncalves' blog",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jugoncalves/jugoncalves.github.io.git"
+  },
+  "author": "Jú Gonçalves <github@jugoncalv.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jugoncalves/jugoncalves.github.io/issues"
+  },
+  "homepage": "https://github.com/jugoncalves/jugoncalves.github.io",
+  "dependencies": {
+    "drf.grid": "~1.0.0",
+    "drf.colors": "~0.1.0"
+  }
+}

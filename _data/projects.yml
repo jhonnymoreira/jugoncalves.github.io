@@ -1,0 +1,11 @@
+-
+  # sapphire
+  name: Sapphire
+  url: https://github.com/jugoncalves/sapphire
+  descr: 'experimental ruby-inspired macros for javascript.'
+
+-
+  # hipstyl
+  name: Hipstyl
+  url: https://github.com/jugoncalves/hipstyl
+  descr: 'a collection of hipster-ish mixins for stylus preprocessor.'
