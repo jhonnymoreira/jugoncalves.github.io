@@ -1,0 +1,52 @@
+
+// libs
+@import 'node_modules/nib/index'
+@import 'node_modules/drf.grid/index'
+@import 'node_modules/drf.colors/lib/drf.color'
+@import 'node_modules/font-awesome/css/font-awesome.css'
+
+
+// grid defaults
+drf-grid_normalize()
+drf-grid_defaults()
+// drf-grid_edit()
+
+// functions
+SpecialFont(weight = 400)
+  font-family 'Abel', sans-serif;
+  font-weight weight
+
+NormalFont(weight = 400)
+  font-family "Helvetica Nue", Helvetica, Arial, sans-serif;
+  font-weight weight
+
+// main styles
+html
+  border-top 15px solid navy
+
+
+body
+  drf-grid_center(600px)
+  SpecialFont()
+  background-color blue
+  color white
+  margin-top: 100px
+
+a
+  color navy
+  transition all 1s
+  text-decoration none
+  &:hover
+    color aqua
+
+p 
+  line-height 1.5
+
+ul
+  list-style none
+
+// pages
+@import 'src/styl/profile'
+@import 'src/styl/list'
+@import 'src/styl/post'
+@import 'src/styl/index'

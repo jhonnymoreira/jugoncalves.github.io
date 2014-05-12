@@ -3,14 +3,17 @@ layout: default
 ---
 
 <section class="me-index">
-  <figure class="me-index_image">
-    <img src="/assets/main/images/index.png" alt="">
-  </figure>
   <h2 class="me-index_title">blog</h2>
 
-  <p class="me-index_blog--text">
-    Find a blogpost.
-  </p>
+  <ul class="me-list_posts">
+    {% for post in site.posts %}
+      <li class="me-list_posts--item">
+        <span class="me-list_posts--item__date">
+          {{ post.date | date_to_string }}
+        </span>
+        <a href="{{ post.url }}" class="me-list_posts--item__title">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
 
-{% include list.html %}

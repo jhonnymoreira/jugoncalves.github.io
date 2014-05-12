@@ -1,0 +1,45 @@
+// profile page
+.me-profile
+  drf-grid_column(3/3)
+
+.me-profile_img
+  drf-grid_column(.7/3)
+  img 
+    height 120px
+    border-radius 50%
+
+.me-profile_descr
+  drf-grid_column(1.3/3)
+  text-align center
+  .me-profile_descr--title
+    SpecialFont(800)
+    color navy
+    margin 0
+  .me-profile_descr--text
+    SpecialFont(200)
+    margin 0
+    .fa
+      font-size .5em
+
+.me-profile_descr--social
+  width 100%
+  text-align center
+.me-profile_descr--social__item
+  display: inline-block
+  margin-right 10px
+  font-size 2em
+  &:last-child
+    margin-right 0
+      
+.me-profile_page
+  drf-grid_column(1/3)
+
+.me-profile_page--list
+  text-align center
+
+.me-profile_page--item
+  display inline-block
+  a 
+    margin-right 12px
+    &:last-child
+      margin-right 0

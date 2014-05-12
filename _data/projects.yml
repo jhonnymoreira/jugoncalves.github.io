@@ -9,3 +9,15 @@
   name: Hipstyl
   url: https://github.com/jugoncalves/hipstyl
   descr: 'a collection of hipster-ish mixins for stylus preprocessor.'
+
+-
+  # bradoc
+  name: Bradoc
+  url: https://github.com/jugoncalves/bradoc
+  descr: "A node module to gen, validate and format Brazilian documents' numbers (aka CPF/CNPJ)."
+
+-
+  # iamworking
+  name: iamworking
+  url: https://github.com/jugoncalves/iamworking
+  descr: 'node cli to log working hours.'

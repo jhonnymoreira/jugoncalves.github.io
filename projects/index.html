@@ -3,18 +3,16 @@ layout: default
 ---
 
 <section class="me-index">
-  <figure class="me-index_image">
-    <img src="/assets/main/images/index.png" alt="">
-  </figure>
-  <h2 class="me-index_title">project</h2>
+  <h2 class="me-index_title">projects</h2>
 
   <ul class="me-index_projects">
     {% for project in site.data.projects %}
       <li class="me-index_projects--item">
+        <i class="fa fa-angle-right"></i>
         <a href="{{ project.url }}" class="me-index_projects--item__title">{{ project.name }}</a>
         <p class="me-index_projects--item__descr">
           {{ project.descr }}
-        </span>
+        </p>
       </li>
     {% endfor %}
   </ul>

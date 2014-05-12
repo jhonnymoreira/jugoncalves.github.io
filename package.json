@@ -14,6 +14,7 @@
   "homepage": "https://github.com/jugoncalves/jugoncalves.github.io",
   "dependencies": {
     "drf.grid": "~1.0.0",
-    "drf.colors": "~0.1.0"
+    "drf.colors": "~0.1.0",
+    "nib": "~1.0.2"
   }
 }
