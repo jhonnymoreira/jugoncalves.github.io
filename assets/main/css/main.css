@@ -1,49 +1,24 @@
-body,
-.me-profile,
-.me-profile_img,
-.me-profile_descr,
-.me-profile_page,
+section,
 .me-list,
-.me-post,
-.me-index {
+.me-post {
   *zoom: 1;
 }
-body:before,
-.me-profile:before,
-.me-profile_img:before,
-.me-profile_descr:before,
-.me-profile_page:before,
+section:before,
 .me-list:before,
 .me-post:before,
-.me-index:before,
-bodyafter,
-.me-profileafter,
-.me-profile_imgafter,
-.me-profile_descrafter,
-.me-profile_pageafter,
+sectionafter,
 .me-listafter,
-.me-postafter,
-.me-indexafter {
+.me-postafter {
   content: '';
   display: table;
 }
-body:after,
-.me-profile:after,
-.me-profile_img:after,
-.me-profile_descr:after,
-.me-profile_page:after,
+section:after,
 .me-list:after,
-.me-post:after,
-.me-index:after {
+.me-post:after {
   clear: both;
 }
-.me-profile,
-.me-profile_img,
-.me-profile_descr,
-.me-profile_page,
 .me-list,
-.me-post,
-.me-index {
+.me-post {
   display: inline;
   clear: none;
   padding-left: 0;
@@ -252,22 +227,10 @@ input,
 iframe {
   max-width: 100%;
 }
-html {
-  border-top: 15px solid #222245;
-}
 body {
-  width: auto;
-  max-width: 600px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
   font-family: 'Abel', sans-serif;
   font-weight: 400;
-  background-color: #1da1cd;
-  color: #fff;
+  color: #111;
   margin-top: 100px;
 }
 a {
@@ -278,9 +241,10 @@ a {
   -ms-transition: all 1s;
   transition: all 1s;
   text-decoration: none;
+  border-bottom: 1px solid #6c6;
 }
 a:hover {
-  color: #53ecec;
+  color: #6c6;
 }
 p {
   line-height: 1.5;
@@ -288,44 +252,33 @@ p {
 ul {
   list-style: none;
 }
-.me-profile {
-  float: right;
-  width: 100%;
-  margin-right: 0%;
-  margin-left: 3%;
+section {
+  width: auto;
+  max-width: 600px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
 }
-.me-profile:last-child {
-  margin-left: 0%;
+.me-profile {
+  font-size: 16px;
 }
 .me-profile_img {
-  float: right;
-  width: 21.0333333333333%;
-  margin-right: 0%;
-  margin-left: 3%;
-}
-.me-profile_img:last-child {
-  margin-left: 0%;
-}
-.me-profile_img img {
-  height: 120px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-.me-profile_descr {
-  float: right;
-  width: 41.6333333333333%;
-  margin-right: 0%;
-  margin-left: 3%;
   text-align: center;
 }
-.me-profile_descr:last-child {
-  margin-left: 0%;
+.me-profile_descr {
+  text-align: center;
 }
 .me-profile_descr .me-profile_descr--title {
   font-family: 'Abel', sans-serif;
   font-weight: 800;
   color: #222245;
   margin: 0;
+}
+.me-profile_descr .me-profile_descr--title a {
+  border: none;
 }
 .me-profile_descr .me-profile_descr--text {
   font-family: 'Abel', sans-serif;
@@ -347,26 +300,22 @@ ul {
 .me-profile_descr--social__item:last-child {
   margin-right: 0;
 }
-.me-profile_page {
-  float: right;
-  width: 31.3333333333333%;
-  margin-right: 0%;
-  margin-left: 3%;
+.me-profile_descr--social__item a {
+  border: none;
 }
-.me-profile_page:last-child {
-  margin-left: 0%;
-}
+.me-profile_page,
 .me-profile_page--list {
   text-align: center;
 }
 .me-profile_page--item {
   display: inline-block;
+  margin-right: 1%;
+}
+.me-profile_page--item:last-child {
+  margin-right: 0;
 }
 .me-profile_page--item a {
-  margin-right: 12px;
-}
-.me-profile_page--item a:last-child {
-  margin-right: 0;
+  border-bottom: 1px solid #6c6;
 }
 .me-list {
   float: right;
@@ -403,15 +352,6 @@ ul {
   margin-left: 3%;
 }
 .me-post:last-child {
-  margin-left: 0%;
-}
-.me-index {
-  float: right;
-  width: 100%;
-  margin-right: 0%;
-  margin-left: 3%;
-}
-.me-index:last-child {
   margin-left: 0%;
 }
 

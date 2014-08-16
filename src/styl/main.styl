@@ -21,29 +21,27 @@ NormalFont(weight = 400)
   font-weight weight
 
 // main styles
-html
-  border-top 15px solid navy
-
-
 body
-  drf-grid_center(600px)
   SpecialFont()
-  background-color blue
-  color white
+  color black
   margin-top: 100px
 
 a
   color navy
   transition all 1s
   text-decoration none
+  border-bottom: 1px solid lime 
   &:hover
-    color aqua
+    color lime
 
 p 
   line-height 1.5
 
 ul
   list-style none
+
+section
+  drf-grid_center(600px)
 
 // pages
 @import 'src/styl/profile'
