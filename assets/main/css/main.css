@@ -1,24 +1,19 @@
 section,
-.me-list,
-.me-post {
+.me-list {
   *zoom: 1;
 }
 section:before,
 .me-list:before,
-.me-post:before,
 sectionafter,
-.me-listafter,
-.me-postafter {
+.me-listafter {
   content: '';
   display: table;
 }
 section:after,
-.me-list:after,
-.me-post:after {
+.me-list:after {
   clear: both;
 }
-.me-list,
-.me-post {
+.me-list {
   display: inline;
   clear: none;
   padding-left: 0;
@@ -231,7 +226,7 @@ body {
   font-family: 'Abel', sans-serif;
   font-weight: 400;
   color: #111;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 a {
   color: #222245;
@@ -241,10 +236,10 @@ a {
   -ms-transition: all 1s;
   transition: all 1s;
   text-decoration: none;
-  border-bottom: 1px solid #6c6;
+  border-bottom: 1px solid #fbad2f;
 }
 a:hover {
-  color: #6c6;
+  color: #fbad2f;
 }
 p {
   line-height: 1.5;
@@ -261,12 +256,20 @@ section {
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .me-profile {
   font-size: 16px;
 }
 .me-profile_img {
   text-align: center;
+}
+.me-profile_img img {
+  height: 120px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 .me-profile_descr {
   text-align: center;
@@ -314,9 +317,6 @@ section {
 .me-profile_page--item:last-child {
   margin-right: 0;
 }
-.me-profile_page--item a {
-  border-bottom: 1px solid #6c6;
-}
 .me-list {
   float: right;
   width: 65.6666666666667%;
@@ -346,12 +346,22 @@ section {
   margin-top: 0;
 }
 .me-post {
-  float: right;
-  width: 76.9966666666667%;
-  margin-right: 0%;
-  margin-left: 3%;
+  font-size: 1.2em;
+  padding: 20px;
+  margin-bottom: 50px;
 }
-.me-post:last-child {
-  margin-left: 0%;
+.me-post_title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.me-post_date {
+  margin: 0 0 50px;
+  text-align: center;
+}
+.me-index {
+  padding: 20px;
+  margin-bottom: 50px;
+  font-size: 1em;
 }
 

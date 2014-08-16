@@ -17,22 +17,22 @@ SpecialFont(weight = 400)
   font-weight weight
 
 NormalFont(weight = 400)
-  font-family "Helvetica Nue", Helvetica, Arial, sans-serif;
+  font-family "Helvetica Nue", Helvetica, Arial, sans-serif
   font-weight weight
 
 // main styles
 body
   SpecialFont()
   color black
-  margin-top: 100px
+  margin-top: 50px
 
 a
   color navy
   transition all 1s
   text-decoration none
-  border-bottom: 1px solid lime 
+  border-bottom: 1px solid orange
   &:hover
-    color lime
+    color orange
 
 p 
   line-height 1.5
@@ -42,6 +42,7 @@ ul
 
 section
   drf-grid_center(600px)
+  box-sizing border-box
 
 // pages
 @import 'src/styl/profile'
