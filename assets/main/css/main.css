@@ -260,6 +260,11 @@ section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+pre {
+  padding: 20px;
+  font-size: 0.8em;
+  line-height: 1.2;
+}
 .me-profile {
   font-size: 16px;
 }
@@ -358,6 +363,12 @@ section {
 .me-post_date {
   margin: 0 0 50px;
   text-align: center;
+}
+ol {
+  margin-left: 28px;
+}
+ol ol {
+  list-style-type: lower-alpha;
 }
 .me-index {
   padding: 20px;
