@@ -1,7 +1,8 @@
 
 name: jugoncalv.es
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+markdown: kramdown
 
 # permalink as /:category/:title
 permalink: /blog/:categories/:title

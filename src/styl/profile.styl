@@ -1,48 +1,74 @@
 // profile page
 .me-profile
-  align(horizontal)
-  font-size 16px
+  width 100%
+
+header
+  padding 50px 0 20px
+  background-color #c33
+  border 20px solid white
+
+  a
+    color black
+    &:hover
+      color white
+
+.me-profile_wrapper
+  width 50%
+  margin 0 auto
 
 .me-profile_img
   text-align center
+  margin 20px 0
 
-  img 
-    height 120px
+  img
+    height 200px
     border-radius 50%
 
-.me-profile_descr
+.me-profile_descr--title
   text-align center
-  .me-profile_descr--title
-    SpecialFont(800)
-    color navy
-    margin 0
-    a
-      border none
-  .me-profile_descr--text
-    SpecialFont(200)
-    margin 0
-    .fa
-      font-size .5em
+  SpecialFont()
+  font-size 3em
+  margin 0
+  a
+    border none
+    color white
+.me-profile_descr--text
+  margin 20px auto 0
+  color black
+  width 50%
+  .fa
+    font-size .3em
 
 .me-profile_descr--social
   width 100%
   text-align center
+  margin 30px 0
+
 .me-profile_descr--social__item
-  display: inline-block
+  display inline-block
   margin-right 10px
   font-size 2em
   &:last-child
     margin-right 0
   a
     border none
-      
+
 .me-profile_page
+  text-align left
+  margin-bottom 50px
 
 .me-profile_page--list
-  text-align center
+  margin 0 auto
+  color black
+  width 50%
 
 .me-profile_page--item
-  display inline-block
-  margin-right 1%
-  &:last-child
-    margin-right 0
+  display block
+  margin-bottom 10px
+
+
+.me-header
+  font-size 10px
+
+  .me-profile_descr--social__item
+    font-size 3em

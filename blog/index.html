@@ -1,19 +1,22 @@
 ---
 layout: default
+title: Blog
 ---
 
 <section class="me-index">
-  <h2 class="me-index_title">blog</h2>
+  <h2 class="me-index_title">Blog</h2>
+
+  <p>Some random thoughts on CS-related topics can be found here.</p>
+  <p>Enjoy.</p>
 
   <ul class="me-list_posts">
     {% for post in site.posts %}
       <li class="me-list_posts--item">
         <span class="me-list_posts--item__date">
-          {{ post.date | date_to_string }}
+          {{ post.date | date: "%B %-d, %Y" }}
         </span>
         <a href="{{ post.url }}" class="me-list_posts--item__title">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
 </section>
-

@@ -1,56 +1,48 @@
 
 // libs
 @import 'node_modules/nib/index'
-@import 'node_modules/drf.grid/index'
+@import 'node_modules/jeet/stylus/jeet/index'
 @import 'node_modules/drf.colors/lib/drf.color'
 @import 'node_modules/font-awesome/css/font-awesome.css'
 
-
-// grid defaults
-drf-grid_normalize()
-drf-grid_defaults()
-// drf-grid_edit()
+global-reset()
 
 // functions
 SpecialFont(weight = 400)
   font-family 'Abel', sans-serif;
   font-weight weight
+  line-height 1
 
 NormalFont(weight = 400)
   font-family "Helvetica Nue", Helvetica, Arial, sans-serif
   font-weight weight
+  line-height 1
 
 // main styles
+html, body
+  height 100%
+
 body
-  SpecialFont()
   color black
-  margin-top: 50px
+  SpecialFont()
+  font-size 18px
 
 a
-  color navy
+  color #c33
   transition all 1s
   text-decoration none
-  border-bottom: 1px solid orange
-  &:hover
-    color orange
+  border-bottom 1px solid #c33
 
-p 
+  &:hover
+    color black
+
+p, span
   line-height 1.5
 
-ul
-  list-style none
+.nopes
+  text-decoration line-through
 
-section
-  drf-grid_center(600px)
-  box-sizing border-box
 
-pre 
-  padding 20px
-  font-size .8em
-  line-height 1.2
-
-// pages
 @import 'src/styl/profile'
-@import 'src/styl/list'
-@import 'src/styl/post'
 @import 'src/styl/index'
+@import 'src/styl/post'

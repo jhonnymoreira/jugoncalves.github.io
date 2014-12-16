@@ -1,0 +1,252 @@
+@import 'node_modules/font-awesome/css/font-awesome.css';
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #111;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #111;
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 18px;
+}
+a {
+  color: #c33;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+  text-decoration: none;
+  border-bottom: 1px solid #c33;
+}
+a:hover {
+  color: #111;
+}
+p,
+span {
+  line-height: 1.5;
+}
+.nopes {
+  text-decoration: line-through;
+}
+.me-profile {
+  width: 100%;
+}
+header {
+  padding: 50px 0 20px;
+  background-color: #c33;
+  border: 20px solid #fff;
+}
+header a {
+  color: #111;
+}
+header a:hover {
+  color: #fff;
+}
+.me-profile_wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.me-profile_img {
+  text-align: center;
+  margin: 20px 0;
+}
+.me-profile_img img {
+  height: 200px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.me-profile_descr--title {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 3em;
+  margin: 0;
+}
+.me-profile_descr--title a {
+  border: none;
+  color: #fff;
+}
+.me-profile_descr--text {
+  margin: 20px auto 0;
+  color: #111;
+  width: 50%;
+}
+.me-profile_descr--text .fa {
+  font-size: 0.3em;
+}
+.me-profile_descr--social {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+.me-profile_descr--social__item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 2em;
+}
+.me-profile_descr--social__item:last-child {
+  margin-right: 0;
+}
+.me-profile_descr--social__item a {
+  border: none;
+}
+.me-profile_page {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.me-profile_page--list {
+  margin: 0 auto;
+  color: #111;
+  width: 50%;
+}
+.me-profile_page--item {
+  display: block;
+  margin-bottom: 10px;
+}
+.me-header {
+  font-size: 10px;
+}
+.me-header .me-profile_descr--social__item {
+  font-size: 3em;
+}
+.me-index {
+  width: 50%;
+  margin: 0 auto 50px;
+  padding: 20px;
+  line-height: 1.5;
+}
+.me-index_title {
+  font-size: 2em;
+}
+.me-list_posts {
+  margin-top: 50px;
+}
+.me-post {
+  width: 50%;
+  margin: 0 auto 50px;
+  font-size: 1.2em;
+  padding: 20px;
+}
+.me-post p {
+  margin-bottom: 10px;
+}
+.me-post pre {
+  padding: 10px;
+  margin: 10px 0;
+}
+.me-post code {
+  font-family: "Source Code Pro", monospace;
+}
+.me-post ol {
+  margin-left: 28px;
+}
+.me-post ol ol {
+  list-style-type: lower-alpha;
+}
+.me-post_title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.me-post_date {
+  padding-bottom: 50px;
+  text-align: center;
+}
+.me-post_more {
+  margin-top: 50px;
+}
+
