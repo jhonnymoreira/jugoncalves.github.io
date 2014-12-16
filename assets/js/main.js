@@ -31693,7 +31693,7 @@ var Projects = React.createClass({displayName: 'Projects',
     var projects = this.props.projects.map(function(item){
       return (
         React.createElement("li", {className: "me-profile_page--item"}, 
-          React.createElement("a", {href: item.url}, item.name), 
+          React.createElement("a", {href: item.http_url}, item.name), 
           ": ", React.createElement("span", null, item.description)
         )
       )
