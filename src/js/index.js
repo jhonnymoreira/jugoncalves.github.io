@@ -14,7 +14,7 @@ var Projects = React.createClass({
     var projects = this.props.projects.map(function(item){
       return (
         <li className="me-profile_page--item">
-          <a href={item.http_url}>{item.name}</a>
+          <a href={item.html_url}>{item.name}</a>
           : <span>{item.description}</span>
         </li>
       )
