@@ -3,9 +3,14 @@
 @import 'node_modules/nib/index'
 @import 'node_modules/jeet/stylus/jeet/index'
 @import 'node_modules/drf.colors/lib/drf.color'
-@import 'node_modules/font-awesome/css/font-awesome.css'
 
 global-reset()
+
+@font-face
+  font-family 'Abel'
+  font-style normal
+  font-weight 400
+  src local('Abel'), local('Abel-Regular'), url(http://fonts.gstatic.com/s/abel/v6/wnJbeWILdr-ZMJJAMsiXsvesZW2xOQ-xsNqO47m55DA.woff) format('woff')
 
 // functions
 SpecialFont(weight = 400)

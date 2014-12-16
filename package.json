@@ -14,6 +14,7 @@
   "scripts": {
     "js": "./node_modules/.bin/browserify src/js/index.js > assets/js/main.js",
     "css": "./node_modules/.bin/stylus < src/styl/main.styl > assets/css/main.css",
+    "min": "./node_modules/.bin/uglifyjs assets/js/main.js -o assets/js/main.min.js",
     "bundle": "npm run js; npm run css;"
   },
   "browserify": {
@@ -39,6 +40,7 @@
     "reactify": "^0.17.1",
     "stylus": "^0.49.3",
     "superagent": "^0.21.0",
+    "uglify-js": "^2.4.16",
     "underscore": "^1.7.0"
   }
 }
