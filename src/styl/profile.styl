@@ -12,10 +12,6 @@ header
     &:hover
       color white
 
-.me-profile_wrapper
-  width 50%
-  margin 0 auto
-
 .me-profile_img
   text-align center
   margin 20px 0
@@ -29,20 +25,44 @@ header
   SpecialFont()
   font-size 3em
   margin 0
+
+  @media (max-width: 800px)
+    font-size 2.2em
+
+  @media (max-width: 350px)
+    font-size 1.5em
+
   a
     border none
     color white
+
+    &:hover
+      text-shadow 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72
+
 .me-profile_descr--text
   margin 20px auto 0
   color black
   width 50%
-  .fa
-    font-size .3em
+
+  @media (max-width: 700px)
+    width 80%
 
 .me-profile_descr--social
   width 100%
   text-align center
   margin 30px 0
+
+.me-profile_descr__item
+  display inline-block
+  margin-right 10px
+  font-size 1.5em
+
+  &:last-child
+    margin-right 0
+
+.me-profile_descr__item--text
+  position relative
+  top -8px
 
 .me-profile_descr--social__item
   display inline-block
@@ -61,6 +81,10 @@ header
   margin 0 auto
   color black
   width 50%
+  margin-top 10px
+
+  @media (max-width: 700px)
+    width 80%
 
 .me-profile_page--item
   display block
@@ -70,5 +94,15 @@ header
 .me-header
   font-size 10px
 
+  header
+    padding 50px 0 0
+
   .me-profile_descr--social__item
     font-size 3em
+
+  .me-profile_descr--title
+    @media (max-width: 800px)
+      font-size 3em
+
+    @media (max-width: 350px)
+      font-size 3em

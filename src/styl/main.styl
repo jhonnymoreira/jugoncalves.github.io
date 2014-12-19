@@ -23,20 +23,32 @@ NormalFont(weight = 400)
   font-weight weight
   line-height 1
 
+Accelerate()
+  -webkit-transform translateZ(0)
+  -moz-transform translateZ(0)
+  -ms-transform translateZ(0)
+  -o-transform translateZ(0)
+  transform translateZ(0)
+
 // main styles
 html, body
   height 100%
 
 body
   color black
-  SpecialFont()
+  font-family "Georgia", serif
   font-size 18px
+  transition all 1s
+  Accelerate()
 
 a
   color #c33
-  transition all 1s
   text-decoration none
   border-bottom 1px solid #c33
+  SpecialFont()
+  font-size 1.2em
+  transition all 1s
+  Accelerate()
 
   &:hover
     color black
@@ -52,4 +64,4 @@ p, span
 @import 'src/styl/index'
 @import 'src/styl/post'
 @import 'src/styl/syntax'
-@import 'src/styl/fa'
+@import 'src/styl/icons'

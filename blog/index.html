@@ -12,10 +12,10 @@ title: Blog
   <ul class="me-list_posts">
     {% for post in site.posts %}
       <li class="me-list_posts--item">
-        <span class="me-list_posts--item__date">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </span>
         <a href="{{ post.url }}" class="me-list_posts--item__title">{{ post.title }}</a>
+        <small class="me-list_posts--item__date">
+          from {{ post.date | date: "%B %-d, %Y" }}
+        </small>
       </li>
     {% endfor %}
   </ul>
