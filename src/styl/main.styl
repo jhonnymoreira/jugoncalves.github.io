@@ -30,6 +30,9 @@ Accelerate()
   -o-transform translateZ(0)
   transform translateZ(0)
 
+
+red = #c33
+
 // main styles
 html, body
   height 100%
@@ -42,9 +45,9 @@ body
   Accelerate()
 
 a
-  color #c33
+  color red
   text-decoration none
-  border-bottom 1px solid #c33
+  border-bottom 1px solid red
   SpecialFont()
   font-size 1.2em
   transition all 1s
@@ -58,6 +61,30 @@ p, span
 
 .nopes
   text-decoration line-through
+
+table
+  SpecialFont()
+  font-size .8em
+  width 100%
+  border-collapse collapse
+  color darken(silver, 60%)
+  margin 50px 0
+
+  thead
+    border-bottom silver 2px solid
+
+    th
+      color black
+
+  tbody
+    tr
+      border-bottom silver 1px solid
+      &:hover
+        background-color lighten(red, 80%)
+
+  td, th
+    padding 10px 0
+    text-align center
 
 
 @import 'src/styl/profile'
