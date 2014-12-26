@@ -106,15 +106,15 @@ Summarization and Conclusion
 After all those reasons, you might be asking yourself which languages that compiles to JavaScript would be a good option to check out. So, here is a table of Langs Vs Features for you to base on:
 
 |---
-| Language | Beautiful Syntax | Static Typing | Concurrency Model | DOM Abstraction | Browser Compatibility | Native Objects | Functional Programming
+| Language | Beautiful Syntax | Static Typing | Async Helper | DOM Abstraction | Browser Compatibility | Native Objects | Functional Programming
 | -
 | CoffeeScript 	| ✓     									| ✖ | ✖ | ✖ | ✖ | ✖ | ✖
 | LiveScript 		| ✓     									| ✖ | ✖ | ✖ | ✖ | ✖ | supports
 | TypeScript 		| same as JavaScript  		| optional | ✖ | ✖ | ✓ | ✓ | ✖
-| Dart 					| same as Java ☹      		| optional | ✖ | ✖ | NA | NA | ✖
-| ClojureScript | same as Clojure ☺   		| ✖ | ✓ | ✖ | NA | NA | enforces
-| Elm 					| inspired by Haskell ☺   | ✓ | ✓ | ✓ | NA | NA | enforces
-| PureScript 		| same as Haskell ☺   		| ✓ | ✖, but Monads | ✖ | NA | NA | enforces
+| Dart 					| same as Java ☹      		| optional | Futures | ✖ | NA | NA | ✖
+| ClojureScript | same as Clojure ☺   		| ✖ | CSP | ✖ | NA | NA | enforces
+| Elm 					| inspired by Haskell ☺   | ✓ | FRP | ✓ | NA | NA | enforces
+| PureScript 		| same as Haskell ☺   		| ✓ | Monads | ✖ | NA | NA | enforces
 
 
 
@@ -123,7 +123,7 @@ And obviously you can get some of these features by using some tools. And that's
  - Static Type Checker => [Flow][flow]
  - Better Syntax => [Traceur][traceur] or [Macros][sweet]
  - Dom Abstraction => [React][react]
- - Concurrency => [Promises][bluebird]
+ - Async Helper => [Promises][bluebird]
 
 It worths mentioning that nothing is a wonderland. Some of amazing langs listed above also comes with their own environment, such as [ClojureScript][cljs], [Elm][elm], [Dart][dart] and [PureScript][ps]. So, you'll need to install Clojure, Haskell or Dart compilers/tools in order to use them. There would be situations that it's just impractical, and you'll need to stick with JavaScript environments, such as Node.js.
 
