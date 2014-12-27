@@ -9,7 +9,7 @@ We all know that JavaScript used to be an almost-impossible-to-deal programming 
 
 But it still keeps some of its *bad parts*. Mostly because it **cannot** be fixed without breaking backwards compatibility. Working websites and webapps cannot just stop working because of it. It's not acceptable.
 
-A lot of efforts have been putted into getting ride of those bad parts. The first attempt was to get ride of JavaScript completely by using third-party platforms such as Flash and Silverlight. But it has a big caveat: you must expect or enforce your user to download, install and keep the platform updated. Unfortunately, you user will choose whether your product is valuable enough to accept all of these overhead of installing a plugin or whatever. The second attempt was to build tools to help us get ride of the bad parts.
+A lot of efforts have been putted into getting ride of those bad parts. The first attempt was to get ride of JavaScript completely by using third-party platforms such as Flash and Silverlight. But it has a big caveat: you must expect or enforce your user to download, install and keep the platform updated. Unfortunately, your user will choose whether your product is valuable enough to accept all of these overhead of installing a plugin or whatever. The second attempt was to build tools to help us get ride of the bad parts.
 
 Then a tool called `lint` was introduced, initially by Douglas Crockford as [JSLint][jslint] and later, with a less biased approach, [JSHint][jshint]. The main problem with this tool is that it only checks for syntax. If you're using ES5+, syntax quirks are probably not your main issue anymore. You might argue that not everybody is using ES5+ and you'll be right. But this number is only getting lower, once we have shims and [IE8 will no longer be supported][nomoreie8] since [Microsoft has dropped Windows XP support][nomorexp].
 
@@ -21,7 +21,7 @@ CoffeeScript, problems and Scopes
 Even if you aren't a Ruby developer or you've never played around with it, we must acknowledge that its syntax does shine. It's lovely. I simply love Ruby syntax and that's why I've started an experimental project to port it to JavaScript, called [Sapphire][sapphire] (Pokémon-related pun intended).
 
 And CoffeeScript did it. It has taken some of Ruby and Python awesomeness and build up a fair beautiful syntax that rides some of the JavaScript's nonsense like `===`. But a new lang always comes with a semantics and it also applies to CoffeeScript, even though its semantics are somehow close to JavaScript's.
-
+Unfortunately
 I think the most well-known problem of CoffeeScript is its scope rules. Check out the following JavaScript code:
 
 {% highlight javascript linenos %}
