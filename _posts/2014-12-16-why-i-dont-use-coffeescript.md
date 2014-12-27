@@ -21,7 +21,7 @@ CoffeeScript, problems and Scopes
 Even if you aren't a Ruby developer or you've never played around with it, we must acknowledge that its syntax does shine. It's lovely. I simply love Ruby syntax and that's why I've started an experimental project to port it to JavaScript, called [Sapphire][sapphire] (Pokémon-related pun intended).
 
 And CoffeeScript did it. It has taken some of Ruby and Python awesomeness and build up a fair beautiful syntax that rides some of the JavaScript's nonsense like `===`. But a new lang always comes with a semantics and it also applies to CoffeeScript, even though its semantics are somehow close to JavaScript's.
-Unfortunately
+
 I think the most well-known problem of CoffeeScript is its scope rules. Check out the following JavaScript code:
 
 {% highlight javascript linenos %}
@@ -55,7 +55,7 @@ console.log x
 
 OMG, the second `console.log` says `x`'s value is 2. OMG!! Yes, all of the sudden, our beloved variable `x` is now a global variable everywhere and every time **any** function would use `x` it will be using the same `x`.
 
-After all, you can still argue it's ok do avoid this scope problem and you can actually. But, are you using CoffeeScript to make your life easier, don't you?
+After all, you can still argue it's ok to avoid this scope problem and you can actually. But, are you using CoffeeScript to make your life easier, don't you?
 
 CoffeeScript as promised
 ---
