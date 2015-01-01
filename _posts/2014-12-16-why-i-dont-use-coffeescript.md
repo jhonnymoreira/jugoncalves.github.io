@@ -125,7 +125,7 @@ And obviously you can get some of these features by using some tools. And that's
  - Dom Abstraction => [React][react]
  - Async Helper => [Promises][bluebird]
 
-It worths mentioning that nothing is a wonderland. Some of amazing langs listed above also comes with their own environment, such as [ClojureScript][cljs], [Elm][elm], [Dart][dart] and [PureScript][ps]. So, you'll need to install Clojure, Haskell or Dart compilers/tools in order to use them. There would be situations that it's just impractical, and you'll need to stick with JavaScript environments, such as Node.js.
+It's worth mentioning there's no silver bullet. Some of amazing langs listed above also comes with their own environment, such as [ClojureScript][cljs], [Elm][elm], [Dart][dart] and [PureScript][ps]. So, you'll need to install Clojure, Haskell or Dart compilers/tools in order to use them. There would be situations that it's just impractical, and you'll need to stick with JavaScript environments, such as Node.js.
 
 So, choose your tools wisely.
 
