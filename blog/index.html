@@ -20,3 +20,16 @@ title: Blog
     {% endfor %}
   </ul>
 </section>
+<section class="me-index me-index--stories">
+  <h2 class="me-index_title">Medium Stories</h2>
+
+  <p>Here is a good collections of stories written at Medium.</p>
+
+  <ul class="me-list_posts">
+    {% for story in site.data.stories %}
+    <li class="me-list_posts--item">
+      <a href="{{ story.url }}" class="me-list_posts--item__title">{{ story.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
