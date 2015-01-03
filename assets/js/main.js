@@ -31715,12 +31715,15 @@ var Projects = React.createClass({displayName: 'Projects',
 
 
 request
-  .get(baseUserURL + ju.username + '/starred')
+  .get(baseUserURL + ju.username + '/repos')
   .end()
   .then(function(res){
-    ju.projects = res.body.filter(function(repo){
-      return repo.owner.login == ju.username
-    })
+
+    ju.projects = res.body
+      .filter(function(repo){
+        return repo.stargazers_count > 3
+      })
+      .sort()
 
     React.render(
       React.createElement(Projects, {projects: ju.projects}),
