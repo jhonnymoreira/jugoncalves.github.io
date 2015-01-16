@@ -49,9 +49,9 @@ So, here it is the candidates:
 1. Esterel (Automata-driven):
 	I could have CEC working, but I'm still not sure. It lacks documentation and good part of tutorials are in French. (Should I use it as an excuse to make more time for French lessons?)
 2. [Factor][factor] (Concatenative Programming):
-	Still don't have the 4 rule working, but it has a T-Rex as a mascot. Isn't it amazing?
+	Still don't have the 4th rule working, but it has a T-Rex as a mascot. Isn't it amazing?
 3. [NewtonScript][ns]: (Prototype-based Object-Oriented Programming)
-	4 rule missing, but I've read a ton of papers which cites NewtonScript when Prototype-based OOP subject comes up. And it has a funny name.
+	4th rule missing, but I've read a ton of papers which cites NewtonScript when Prototype-based OOP subject comes up. And it has a funny name.
 2. [miniKanren][minik] (Logic Programming):
 	It looks like a small language and I could find more compilers for it than actual content. At least, there's an chapter about it in [Seven More Languages in Seven Weeks][7in7].
 3. [Idris][idris] (Theorem Prover):
