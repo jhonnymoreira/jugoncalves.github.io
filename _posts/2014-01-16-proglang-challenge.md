@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning a proglang for fun : a one year-long challenge"
+title:  "Learning a proglang for fun: a one year-long challenge"
 date:   2015-01-16 22:29:45
 categories: proglang
 ---
@@ -33,15 +33,15 @@ Candidates
 
 I've made a list of the candidates for 2015. Yes, I still haven't chosen. First of all, I have some inherently interests in some features I always want to learn about:
 
-- Automata-driven
+- Automata-driven:
 	The idea of programming a system which is a big Finite-State Machine looks like fun. Mostly because I think it'd be an interesting way to represent Graphical User Interfaces, but I have never played around with something like this.
-- Concatenative Programming
+- Concatenative Programming:
 	  Point-free style is something I am somehow interested in. I usually avoid it when programming in Haskell because of readability. But it would be really fun to take it to a next level.
-- Prototype-based Object-Oriented Programming
+- Prototype-based Object-Oriented Programming:
 	Yes. I know. It's kind of cheating. My main programming language is JavaScript and it already embraces Prototype-based OOP. But I want to give it an academic try and learn a language which implements it an this fashion.
-- Logic Programming
+- Logic Programming:
 	I miss Prolog. No, really.
-- Theorem Prover
+- Theorem Prover:
 	Isn't First-class Types magical per se?
 
 So, here it is the candidates:
