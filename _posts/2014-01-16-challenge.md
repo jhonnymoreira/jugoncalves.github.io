@@ -5,7 +5,7 @@ date:   2015-01-16 22:29:45
 categories: proglang
 ---
 
-I've always been a kind of industry-driven person. Even though I've never been sold to Java, I always tried to keep my learning process close to what could be used for getting a job. Make time to learn something new that I could not have some sort of direct return seemed not to be a good fit in my life.
+I've always been a kind of industry-driven person. Even though I've never been sold to Java, I always tried to keep my learning process close to what could be used for getting a job or being somehow useful in everyday work. Make time to learn something new that I could not have some sort of direct return seemed not to be a good fit in my life.
 
 But some things has changed. Last year, I have made some time and taken both [Louv1.1x][louv1.1x] and [Louv1.2x][louv1.2x] courses at EdX on Paradigms of Computer Programming. Prof. van Roy and his TAs have done an amazing job during the courses and it was a great experience.
 
@@ -53,7 +53,7 @@ So, here it is the candidates:
 3. [NewtonScript][ns]: (Prototype-based Object-Oriented Programming)
 	4 rule missing, but I've read a ton of papers which cites NewtonScript when Prototype-based OOP subject comes up. And it has a funny name.
 2. [miniKanren][minik] (Logic Programming):
-	It looks like a small language and I could found more compilers for it than actual content. At least, there's an chapter about it in [Seven More Languages in Seven Weeks][7in7].
+	It looks like a small language and I could find more compilers for it than actual content. At least, there's an chapter about it in [Seven More Languages in Seven Weeks][7in7].
 3. [Idris][idris] (Theorem Prover):
     It has Monad comprehensions. What else should I say?
 
